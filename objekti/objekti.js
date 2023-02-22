@@ -21,9 +21,9 @@ osoba.brojCipela = "43";
 /*var isObrisano = delete osoba.prezime;
 console.log(isObrisano)*/
 
-var json = JSON.stringify(osoba);
+/*var json = JSON.stringify(osoba);
 console.log(json);
-return;
+return;*/
 
 if (osoba.brojCipela > 39) {
     console.log(`ime i prezime: ${osoba.ime} ${osoba.prezime}`)
