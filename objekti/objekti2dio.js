@@ -1,7 +1,8 @@
 var auto = {
-    marka: "VW",
+    brand:{
+        marka: "VW",
+        model: "Golf",},
     gorivo: "benzin",
-    model: "Golf",
     godina: 2022,
     boja: "crvena",
     maxBrzina: 160,
@@ -38,7 +39,7 @@ console.log("Ja vozim auto marke: " + auto.marka);
 
 //*(može ići i ovako sa jednostrukim navodnicima)
 /*console.log(`Ja vozim auto marke: ${auto.marka}`);*/
-console.log("Ja vozim auto "+auto.marka+" "+auto.model+" iz " +auto.godina+ " godine.")
+console.log(`Ja vozim auto ${auto.brand.marka} ${auto.model} iz ${auto.godina} godine.`)
 console.log("Auto vozi brzinom " +auto.trenutnaBrzina);
 console.log("Auto nakon ubrzanja vozi brzinom " + auto.ubrzaj(60))
 console.log("Auto nakon kočenja vozi brzinom " +auto.zakoci(30))
