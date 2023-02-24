@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\funkcije\\java.js"
+            "program": "${workspaceFolder}\\objekti\\objekti2dio.js"
         }
     ]
 }
