@@ -40,3 +40,5 @@ console.log("Rezultat duljine= " + ifVeciod10(dobro.toString()));
 return;
 jedinstveniZnakovi(dobro);
 jedinstveniZnakovi(lose);
+
+//aaa
